@@ -22,45 +22,9 @@ A clean, modern, and authentic personal website built for the **Hack Club Starda
    - **HTML & CSS**: Semantic markup, responsive Flexbox/Grid layouts, and modern design.
 5. **How to Contact Me**: Direct email with one-click copy, GitHub profile link, Discord handle, and a clean message form.
 
----
-
-## ✨ Stardance Requirements Checklist
-
-| Requirement | Implementation | Status |
-| :--- | :--- | :---: |
-| **HTML + CSS Architecture** | Semantic HTML5 and bespoke responsive CSS with zero heavy frameworks. | ✅ Complete |
-| **At Least 3 Sections** | 5 comprehensive sections (Hero, About, Studying, Languages, Contact). | ✅ Complete |
-| **Creative Design Element** | Subtle ambient starfield canvas with smooth twinkling animations. | ✅ Complete |
-| **Public Repository & README** | Clean directory structure with deployment guide and documentation. | ✅ Complete |
-| **Public Live URL Ready** | Push directly to GitHub Pages or Vercel with zero build configuration. | ✅ Complete |
 
 ---
 
-## ⚡ Deployment Guide
-
-### Option 1: GitHub Pages (Recommended for Stardance)
-1. Push this folder to a new public repository on [GitHub](https://github.com/new).
-2. Go to **Settings** → **Pages** (under "Code and automation").
-3. Under **Branch**, select `main` and `/ (root)` folder, then click **Save**.
-4. GitHub will give you your live URL (`https://ashwin8630.github.io/<repo-name>/`) in under a minute!
-5. Submit your live link on [stardance.hackclub.com](https://stardance.hackclub.com).
-
-### Option 2: Vercel / Netlify
-1. Log in to [Vercel](https://vercel.com) or [Netlify](https://netlify.com) using your GitHub account.
-2. Click **Add New Project** → Select your repository.
-3. Click **Deploy** to instantly receive a public `.vercel.app` or `.netlify.app` URL.
-
----
-
-## 💻 Running Locally
-
-Simply double-click [`index.html`](index.html) in your browser, or run:
-```bash
-python -m http.server 8080
-```
-Then open [http://localhost:8080](http://localhost:8080).
-
----
 
 ## 📄 License
 Released under the [MIT License](LICENSE). Built by Ashwin for Hack Club Stardance 2026.
