@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashwin | Personal Site</title>
+  <meta name="description" content="Personal site of Ashwin. Student and programmer. What I do, what I'm studying, the languages I code with, and how to contact me." />
+  <meta name="author" content="Ashwin" />
+  <meta name="theme-color" content="#0b0f19" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Subtle Ambient Background -->
+  <canvas id="ambient-canvas" aria-hidden="true"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-dot"></span>
+        <span class="brand-name">Ashwin</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#studying" class="nav-link">What I'm Studying</a>
+        <a href="#languages" class="nav-link">Languages</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="nav-contact-btn">Contact Me</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <div class="status-badge">
+          <span class="pulse-indicator"></span>
+          <span>Student &amp; Programmer</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="accent-text">Ashwin</span>.
+        </h1>
+
+        <p class="hero-subtitle">
+          I'm a student who loves writing code, exploring how software works under the hood, and solving problems. Welcome to my personal site!
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="#languages" class="btn btn-secondary">Languages I Know</a>
+        </div>
+
+        <!-- Quick Summary Cards -->
+        <div class="quick-cards">
+          <div class="quick-card">
+            <span class="card-icon">📚</span>
+            <div>
+              <h3>Currently Studying</h3>
+              <p>High school academics &amp; CS fundamentals</p>
+            </div>
+          </div>
+          <div class="quick-card">
+            <span class="card-icon">💻</span>
+            <div>
+              <h3>Core Focus</h3>
+              <p>Algorithms, systems &amp; clean code</p>
+            </div>
+          </div>
+          <div class="quick-card">
+            <span class="card-icon">⚡</span>
+            <div>
+              <h3>Interests</h3>
+              <p>Low-level logic, scripting &amp; web</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ME SECTION ==================== -->
+    <section class="section" id="about">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">About</span>
+          <h2 class="section-heading">About Me</h2>
+          <p class="section-subtext">A quick introduction to who I am and what I do.</p>
+        </div>
+
+        <div class="about-grid">
+          
+          <div class="about-card main-about">
+            <h3>Who I Am</h3>
+            <p>
+              Hello! I'm Ashwin. I'm a student and programmer who spends a lot of time learning and experimenting with code. I love breaking down complex problems into clear, logical steps and writing software that solves them.
+            </p>
+            <p>
+              Whether it's diving into low-level concepts in C and C++, writing scripts in Python, or building clean layouts with HTML and CSS, I enjoy understanding how every piece of technology functions.
+            </p>
+          </div>
+
+          <div class="about-card daily-routine">
+            <h3>What I Do Currently</h3>
+            <ul class="clean-list">
+              <li>
+                <span class="list-bullet">✦</span>
+                <span><strong>Writing Code Daily:</strong> Practicing programming problems, writing utilities, and experimenting with languages.</span>
+              </li>
+              <li>
+                <span class="list-bullet">✦</span>
+                <span><strong>Strengthening Fundamentals:</strong> Learning how memory management, pointers, and data structures operate.</span>
+              </li>
+              <li>
+                <span class="list-bullet">✦</span>
+                <span><strong>Building Projects:</strong> Turning ideas into small, functional software programs and web pages.</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== WHAT I'M STUDYING SECTION ==================== -->
+    <section class="section section-alt" id="studying">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Academics &amp; Learning</span>
+          <h2 class="section-heading">What I'm Currently Studying</h2>
+          <p class="section-subtext">The subjects and computer science topics I'm focusing on right now.</p>
+        </div>
+
+        <div class="study-grid">
+          
+          <div class="study-card">
+            <div class="study-icon">📐</div>
+            <h3>School Academics</h3>
+            <p>
+              Balancing standard school studies including Mathematics and Sciences, which provide the logical analytical mindset needed for writing good code.
+            </p>
+          </div>
+
+          <div class="study-card">
+            <div class="study-icon">🧠</div>
+            <h3>Data Structures &amp; Algorithms</h3>
+            <p>
+              Studying core data structures such as arrays, linked lists, stacks, queues, and trees, along with sorting algorithms and Big-O efficiency analysis.
+            </p>
+          </div>
+
+          <div class="study-card">
+            <div class="study-icon">⚙️</div>
+            <h3>Object-Oriented Programming (OOP)</h3>
+            <p>
+              Learning object-oriented architecture in Java and C++, including classes, encapsulation, inheritance, polymorphism, and abstraction.
+            </p>
+          </div>
+
+          <div class="study-card">
+            <div class="study-icon">🌐</div>
+            <h3>Web Basics &amp; Scripting</h3>
+            <p>
+              Exploring how web pages are structured with semantic HTML5, styled with modern CSS, and made interactive with JavaScript, alongside Python scripting.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== LANGUAGES SECTION ==================== -->
+    <section class="section" id="languages">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Technical Skills</span>
+          <h2 class="section-heading">Languages I Code With &amp; Know</h2>
+          <p class="section-subtext">The exact programming and markup languages I use and know.</p>
+        </div>
+
+        <div class="lang-grid">
+          
+          <!-- C -->
+          <div class="lang-card">
+            <div class="lang-header">
+              <span class="lang-badge c-badge">C</span>
+              <h3>C</h3>
+            </div>
+            <p>
+              Procedural low-level programming, working with pointers, manual memory allocation (malloc and free), and understanding computer architecture fundamentals.
+            </p>
+            <div class="lang-footer">
+              <span class="lang-tag">Pointers &amp; Memory</span>
+              <span class="lang-tag">Procedural</span>
+            </div>
+          </div>
+
+          <!-- C++ -->
+          <div class="lang-card">
+            <div class="lang-header">
+              <span class="lang-badge cpp-badge">C++</span>
+              <h3>C++</h3>
+            </div>
+            <p>
+              High-performance systems programming, object-oriented concepts, Standard Template Library (STL: vectors, maps, sets), and algorithmic problem solving.
+            </p>
+            <div class="lang-footer">
+              <span class="lang-tag">STL</span>
+              <span class="lang-tag">OOP</span>
+              <span class="lang-tag">Performance</span>
+            </div>
+          </div>
+
+          <!-- Python -->
+          <div class="lang-card">
+            <div class="lang-header">
+              <span class="lang-badge py-badge">Py</span>
+              <h3>Python</h3>
+            </div>
+            <p>
+              Writing clean scripts, automating repetitive tasks, prototyping software ideas, and working with Python's versatile standard library.
+            </p>
+            <div class="lang-footer">
+              <span class="lang-tag">Automation</span>
+              <span class="lang-tag">Scripting</span>
+              <span class="lang-tag">Rapid Dev</span>
+            </div>
+          </div>
+
+          <!-- Java -->
+          <div class="lang-card">
+            <div class="lang-header">
+              <span class="lang-badge java-badge">☕</span>
+              <h3>Java</h3>
+            </div>
+            <p>
+              Object-oriented design patterns, classes, inheritance, robust type safety, and building structured applications running on the JVM.
+            </p>
+            <div class="lang-footer">
+              <span class="lang-tag">Object-Oriented</span>
+              <span class="lang-tag">Classes</span>
+              <span class="lang-tag">JVM</span>
+            </div>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="lang-card">
+            <div class="lang-header">
+              <span class="lang-badge js-badge">JS</span>
+              <h3>JavaScript</h3>
+            </div>
+            <p>
+              Frontend interactivity, event handling, dynamic DOM manipulation, and adding dynamic client-side logic to web applications.
+            </p>
+            <div class="lang-footer">
+              <span class="lang-tag">Web Interactivity</span>
+              <span class="lang-tag">DOM</span>
+              <span class="lang-tag">ES6+</span>
+            </div>
+          </div>
+
+          <!-- HTML & CSS -->
+          <div class="lang-card">
+            <div class="lang-header">
+              <span class="lang-badge html-badge">&lt;/&gt;</span>
+              <h3>HTML &amp; CSS</h3>
+            </div>
+            <p>
+              Semantic document structuring, modern responsive CSS Flexbox and Grid layouts, media queries, and styling clean websites.
+            </p>
+            <div class="lang-footer">
+              <span class="lang-tag">Semantic HTML5</span>
+              <span class="lang-tag">CSS Flex/Grid</span>
+              <span class="lang-tag">Responsive</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Reach Out</span>
+          <h2 class="section-heading">How to Contact Me</h2>
+          <p class="section-subtext">Feel free to reach out with any questions or just to connect!</p>
+        </div>
+
+        <div class="contact-wrap">
+          
+          <div class="contact-cards">
+            
+            <div class="contact-method-card">
+              <div class="method-icon">✉️</div>
+              <div class="method-details">
+                <h4>Email</h4>
+                <p>Send an email directly:</p>
+                <a href="mailto:ashwinselvi228@gmail.com" class="contact-link" id="email-link">ashwinselvi228@gmail.com</a>
+              </div>
+              <button class="copy-btn" id="copy-email-btn" title="Copy email address">
+                Copy
+              </button>
+            </div>
+
+            <div class="contact-method-card">
+              <div class="method-icon">🐙</div>
+              <div class="method-details">
+                <h4>GitHub</h4>
+                <p>Check out my repositories and code:</p>
+                <a href="https://github.com/ashwin8630" target="_blank" rel="noopener noreferrer" class="contact-link">github.com/ashwin8630</a>
+              </div>
+              <span class="external-arrow">↗</span>
+            </div>
+
+            <div class="contact-method-card">
+              <div class="method-icon">💬</div>
+              <div class="method-details">
+                <h4>Discord</h4>
+                <p>Direct message:</p>
+                <span class="contact-handle">@ash064505</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-box">
+            <h3>Send a Message</h3>
+            <p>Leave a note below:</p>
+
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="sender-name">Your Name</label>
+                <input type="text" id="sender-name" class="form-control" placeholder="What's your name?" required />
+              </div>
+
+              <div class="form-group">
+                <label for="sender-email">Your Email</label>
+                <input type="email" id="sender-email" class="form-control" placeholder="your.email@example.com" required />
+              </div>
+
+              <div class="form-group">
+                <label for="sender-msg">Message</label>
+                <textarea id="sender-msg" class="form-control" rows="4" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary w-full">Send Message</button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 Ashwin. All rights reserved.</p>
+      <a href="#hero" class="back-link">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Toast Container -->
+  <div id="toast-deck" class="toast-deck"></div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
